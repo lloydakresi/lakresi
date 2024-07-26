@@ -54,8 +54,11 @@ export default function Home() {
     </p>
   </section>
 </div>
-
     </main>
+    <footer className="flex flex-col justify-center items-center py-5">
+      Made with ❤️ in Ghana <br/>
+      &copy; 2024 Lloyd Akresi
+    </footer>
 
     </>
 
