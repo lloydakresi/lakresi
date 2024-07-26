@@ -55,7 +55,7 @@ export default function Home() {
   </section>
 </div>
     </main>
-    <footer className="flex flex-col justify-center items-center py-5 font-Ubuntu text-xl">
+    <footer className="flex flex-col justify-center items-center text-center py-5 font-Ubuntu text-sm">
       Made with ❤️ in Ghana <br/>
       &copy; 2024 Lloyd Akresi
     </footer>
