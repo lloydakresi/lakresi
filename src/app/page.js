@@ -15,7 +15,7 @@ export default function Home() {
   <header className="flex flex-col sm:flex-row sm:mx-3 leading:2 justify-between items-center">
     <h2 className="font-sans font-extrabold font-Ubuntu text-2xl my-3">Lloyd Akresi</h2>
     <nav>
-      <ul className="flex flex-row justify-evenly gap-x-5 font-sans font-medium">
+      <ul className="flex flex-row justify-evenly gap-x-5 font-Ubuntu font-medium">
         <li><Link href="#">ABOUT ME</Link></li>
         <li><Link href="#">PROJECTS</Link></li>
         <li><Link href="#">CONTACT ME</Link></li>
