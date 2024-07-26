@@ -1,3 +1,5 @@
+const { Raleway } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -14,6 +16,7 @@ module.exports = {
       },
       fontFamily: {
         Ubuntu: ["Ubuntu", "sans-serif"],
+        Raleway: ["Raleway", "sans-serif"],
       },
     },
   },
