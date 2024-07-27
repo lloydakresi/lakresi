@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+import Form  from "../../components/Form";
 /* eslint-disable react/no-unescaped-entities */
+
 
 export default function Home() {
   return (
@@ -76,18 +78,8 @@ export default function Home() {
 
   <div className="w-full sm:w-1/2 p-5">
   <h3 className="text-2xl font-Ubuntu font-medium mb-4">Send me a message😊</h3>
-    <form className="flex flex-col space-y-4">
-      <label htmlFor="name" className="font-Ubuntu"><strong>Name</strong></label>
-      <input type="text" id="name" name="name" placeholder="Enter your name" required className="border-b border-gray-300 p-2 bg-transparent" />
+  <Form />
 
-      <label htmlFor="email" className="font-Ubuntu"><strong>Email</strong></label>
-      <input type="email" id="email" name="email" placeholder="Enter your email" required className="border-b border-gray-300 p-2 bg-transparent " />
-
-      <label htmlFor="message" className="font-Ubuntu"><strong>Message</strong></label>
-      <textarea id="message" name="message" placeholder="Enter your message" required className="border border-gray-300 p-2 h-32 rounded bg-transparent"></textarea>
-
-      <button type="submit" className="bg-blue-500 font-Ubuntu dark:bg-orange-800 text-white py-2 rounded">Send</button>
-    </form>
   </div>
 </div>
 </section>
