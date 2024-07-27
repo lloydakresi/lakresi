@@ -58,7 +58,7 @@ export default function Home() {
     </div>
 
 
-<section className="min-h-screen flex flex-col justify-center lg:border items-center sm:mx-40 py-10 lg:py">
+<section className="min-h-screen flex flex-col justify-center items-center sm:mx-40 py-10 lg:py">
 <h2 className="text-2xl font-Ubuntu font-bold my-5 text-center">Contact Me</h2>
 <div className=" flex flex-col sm:flex-row sm:gap-x-12 justify-center lg:border items-center sm:mx-40 py-10 lg:py">
 <div className="w-11/12 sm:w-1/2 text-center sm:ml-5 sm:text-left p-5 dark:bg-slate-800 shadow-lg rounded-lg p-3">
